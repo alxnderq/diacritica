@@ -3,3 +3,32 @@
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/forms";
 
+
+.header { 
+    background-color: #2D333F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+
+    .left {
+        svg {
+            display: block;
+            height: 25px;
+            margin: 15px 0;
+        }
+    }
+
+    .right {
+        display: flex;
+    }
+}
+
+.menu ul,
+.translate ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}

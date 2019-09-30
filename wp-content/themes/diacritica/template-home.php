@@ -12,7 +12,7 @@ get_header();
 <section class="heightFull" id="one">
 	<div class="decoration-core-lines decoration-init-position">
 		<span class="decoration-line_position_1"></span>
-		<span class="decoration-line_position_2"></span>
+        <span class="decoration-line_position_2"></span>
 	</div>
 	<div class="x-container heightFull">
 		<div class="center_v">			
@@ -58,10 +58,12 @@ get_header();
     <a href="#" class="eggs egg-position1"></a>
     <a href="#" class="eggs egg-position2"></a>
 </div>
-<section class="section" id="origin">
+<section class="section section__origin" id="origin">
+    <!--
 	<div class="decoration-core-lines decoration-origin-position">
 		<span class="decoration-line_position_1"></span>
 	</div>
+	-->
 	<div class="x-container">
 		<div class="x-flex">
 			<div class="left">
@@ -79,17 +81,21 @@ get_header();
 		</div>
 	</div>
 </section>
+<!--
 <div class="decoration-simplelines">
     <a href="#" class="eggs egg-position3"></a>
     <a href="#" class="eggs egg-position4"></a>
 </div>
-<section class="section" id="curricula">
-	<div class="decoration-core-lines decoration-origin-position">
-		<span class="decoration-line_position_1"></span>
-		<span class="decoration-line_position_2"></span>
-		<span class="decoration-line_position_3"></span>
-		<span class="decoration-line_position_4"></span>
-	</div>
+-->
+<section class="section section__curricula" id="curricula">
+    <!--
+        <div class="decoration-core-lines decoration-origin-position">
+            <span class="decoration-line_position_1"></span>
+            <span class="decoration-line_position_2"></span>
+            <span class="decoration-line_position_3"></span>
+            <span class="decoration-line_position_4"></span>
+        </div>
+        -->
 	<div class="x-container">
 		<div class="x-flex">
 			<div class="left">

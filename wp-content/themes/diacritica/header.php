@@ -11,7 +11,7 @@
     ?>
 </head>
 <body>
-<header class="">
+<header class="header">
     <nav>
         <div class="x-container x-flex">
             <div class="left">
